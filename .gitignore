@@ -1,0 +1,16 @@
+test
+inst/extras/.RData
+inst/extras/document.Rout
+inst/extras/*.tar.gz
+*Rcheck*
+inst/extras/..Rcheck
+inst/extras/..Rcheck
+*~
+*/~
+.RData
+.Rhistory
+bibliographica.Rproj
+.Rproj.user/*
+tests/.RData
+vignettes/tutorial.html
+.Rproj.user

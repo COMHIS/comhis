@@ -1,0 +1,20 @@
+citHeader("Kindly cite this R package as follows:")
+
+citEntry(entry="misc",
+         title = "comhis: R tools for Helsinki Computational History Group",
+         author = personList(
+	   person(given ="Leo", family="Lahti", email = "leo.lahti@iki.fi"),
+	   person(given ="Ville", family="Vaara"),
+	   person(given ="Mikko", family="Tolonen")
+         ),
+	 doi = "",
+	 journal = "",
+	 year = "2014-2019",
+         textVersion =
+         paste("(C) Leo Lahti, Ville Vaara, Mikko Tolonen (COMHIS 2015-2018). ",
+               "comhis R package",
+	       "URL: http://github.com/COMHIS/comhis",
+               sep=" ")
+         )
+
+citFooter("\nMany thanks for all contributors! See: http://comhis.github.io")
