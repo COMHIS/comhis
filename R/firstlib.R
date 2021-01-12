@@ -1,3 +1,4 @@
+#' @importFrom stringr str_to_title
 #' @importFrom ggplot2 element_blank
 #' @importFrom ggplot2 element_line
 #' @importFrom ggplot2 rel
@@ -15,6 +16,7 @@
 #' @importFrom utils installed.packages
 #' @importFrom utils read.csv
 #' @importFrom tibble data_frame
+#' @importFrom stringr str_trim
 .onAttach <- function(lib, pkg)
 {
 

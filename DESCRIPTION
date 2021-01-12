@@ -18,7 +18,8 @@ Depends:
 Imports:
     ggplot2,
     ggthemes,
-    tibble    
+    tibble,
+    stringr    
 Suggests:
     knitr,
     rmarkdown,
