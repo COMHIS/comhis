@@ -13,10 +13,12 @@
 #' @importFrom grid unit
 #' @importFrom utils install.packages
 #' @importFrom utils installed.packages
+#' @importFrom utils read.csv
+#' @importFrom tibble data_frame
 .onAttach <- function(lib, pkg)
 {
 
-  packageStartupMessage("R tools for Helsinki Computational History Group (COMHIS)\nCopyright (C) 2014-2019 \n\nhttp://github.com/COMHIS/comhis\n")
+  packageStartupMessage("R tools for Helsinki Computational History Group (COMHIS)\nCopyright (C) 2014-2021 \n\nhttp://github.com/COMHIS/comhis\n")
 
 }
 

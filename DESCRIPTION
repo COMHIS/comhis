@@ -1,7 +1,7 @@
 Package: comhis
 Type: Package
 Title: Bibliographic Data Analysis
-Version: 0.1.1
+Version: 0.1.2
 Authors@R: c(
     person("Lahti", "Leo", email = "leo.lahti@iki.fi", role = c("aut", "cre")),
     person("Ville", "Vaara" , role = "aut"),
@@ -11,17 +11,18 @@ Description: Helsinki Computational History Group Infra Package.
 License: MIT + file LICENSE
 VignetteBuilder: knitr
 Encoding: UTF-8
-BugReports: https://github.com/ropengov/comhis/issues
-URL: http://github.com/ropengov/comhis
+BugReports: https://github.com/comhis/comhis/issues
+URL: http://github.com/comhis/comhis
 Depends:
     R (>= 3.0.2)
 Imports:
     ggplot2,
-    ggthemes
+    ggthemes,
+    tibble    
 Suggests:
     knitr,
     rmarkdown,
     roxygen2,
     testthat
 LazyLoad: yes
-RoxygenNote: 6.1.1
+RoxygenNote: 7.1.1
