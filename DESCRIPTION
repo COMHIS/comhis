@@ -24,4 +24,4 @@ Suggests:
     roxygen2,
     testthat
 LazyLoad: yes
-RoxygenNote: 6.1.1
+RoxygenNote: 7.0.2
