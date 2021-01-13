@@ -4,13 +4,13 @@
 #' @return Sheet size table
 #' @export
 #' @author Leo Lahti \email{leo.lahti@@iki.fi}
-#' @references See citation("bibliographica")
+#' @references See citation("comhis")
 #' @examples sheetsizes <- sheet_sizes()
 #' @keywords utilities
 sheet_sizes <- function (...) {  
 
   # Read the mapping table
-  f <- system.file("extdata/sheetsizes.csv", package = "bibliographica")
+  f <- system.file("extdata/sheetsizes.csv", package = "comhis")
   tab <- as.data.frame(read.csv(f, sep = ","))
   tab$format <- str_trim(as.character(tab$format))
   tab$gatherings <- str_trim(as.character(tab$gatherings)) 
