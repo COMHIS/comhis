@@ -14,7 +14,7 @@ order_gatherings <- function (x) {
 
   # Recognize gatherings format (2fo or folio)
   format <- gatherings_format(x)
-  
+
   # Denote the ordering directly in the table		 
   glevels <- tolower(unique(gatherings_table()[[format]]))
 
