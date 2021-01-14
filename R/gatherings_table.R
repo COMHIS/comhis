@@ -4,8 +4,8 @@
 #' @return Document gatherings table
 #' @export
 #' @author Leo Lahti \email{leo.lahti@@iki.fi}
-#' @references See citation("bibliographica")
-#' @examples gatherings_table()
+#' @references See citation("comhis")
+#' @examples # gatherings_table()
 #' @keywords utilities
 gatherings_table <- function (...) {
 

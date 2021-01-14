@@ -10,7 +10,7 @@
 #'          from call sheet_area()
 #' @author Leo Lahti \email{leo.lahti@@iki.fi}
 #' @references See citation("comhis")
-#' @examples sheet_area("2to")
+#' @examples # sheet_area("2to")
 #' @keywords utilities
 sheet_area <- function (x = NULL, sheet.dimension.table = NULL, verbose = FALSE) {
 	

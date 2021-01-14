@@ -5,7 +5,7 @@
 #' @export
 #' @author Leo Lahti \email{leo.lahti@@iki.fi}
 #' @references See citation("comhis")
-#' @examples dimension_table()
+#' @examples # dimension_table()
 #' @keywords utilities
 dimension_table <- function (...) {
 

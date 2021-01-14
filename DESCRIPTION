@@ -1,7 +1,7 @@
 Package: comhis
 Type: Package
 Title: Bibliographic Data Analysis
-Version: 0.1.3
+Version: 0.1.4
 Authors@R: c(
     person("Lahti", "Leo", email = "leo.lahti@iki.fi", role = c("aut", "cre")),
     person("Ville", "Vaara" , role = "aut"),
@@ -26,8 +26,5 @@ Suggests:
     roxygen2,
     testthat
 LazyLoad: yes
-<<<<<<< HEAD
-RoxygenNote: 7.0.2
-=======
 RoxygenNote: 7.1.1
->>>>>>> 5a211f975e7c74285403b7f73829903dff7ca330
+

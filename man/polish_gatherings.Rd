@@ -16,10 +16,10 @@ A factor with polished gatherings levels
 Polish gatherings
 }
 \examples{
-polish_gatherings(factor(c("2fo", "1tolded", "8vo")))
+# polish_gatherings(factor(c("2fo", "1tolded", "8vo")))
 }
 \references{
-See citation("bibliographica")
+See citation("comhis")
 }
 \author{
 Leo Lahti \email{leo.lahti@iki.fi}

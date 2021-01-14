@@ -3,8 +3,8 @@
 #' @param x A vector or factor of gathering data
 #' @return A factor with polished gatherings levels
 #' @author Leo Lahti \email{leo.lahti@@iki.fi}
-#' @references See citation("bibliographica")
-#' @examples polish_gatherings(factor(c("2fo", "1tolded", "8vo")))
+#' @references See citation("comhis")
+#' @examples # polish_gatherings(factor(c("2fo", "1tolded", "8vo")))
 #' @export
 #' @keywords utilities
 polish_gatherings <- function (x) {

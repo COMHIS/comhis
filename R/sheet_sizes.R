@@ -5,7 +5,7 @@
 #' @export
 #' @author Leo Lahti \email{leo.lahti@@iki.fi}
 #' @references See citation("comhis")
-#' @examples sheetsizes <- sheet_sizes()
+#' @examples # sheetsizes <- sheet_sizes()
 #' @keywords utilities
 sheet_sizes <- function (...) {  
 
