@@ -9,7 +9,7 @@
 #' @keywords utilities
 gatherings_table <- function (...) {
 
-  f <- system.file("extdata/document_size_abbreviations.csv", package = "fennica")
+  f <- system.file("extdata/document_size_abbreviations.csv", package = "comhis")
   dd <- read.csv(f, header = TRUE, sep = ";")
   dd <- apply(dd, 2, as.character)
   dd[dd == ""] <- NA
