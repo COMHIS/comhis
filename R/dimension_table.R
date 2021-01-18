@@ -5,7 +5,7 @@
 #' @export
 #' @author Leo Lahti \email{leo.lahti@@iki.fi}
 #' @references See citation("comhis")
-#' @examples dimension_table()
+#' @examples # dimension_table()
 #' @keywords utilities
 dimension_table <- function (...) {
 
@@ -17,10 +17,10 @@ dimension_table <- function (...) {
   dd <- dd[-1,]
 
   dd <- apply(dd, 2, as.character)
-  
+
   # Add 1to
   ss <- sheet_sizes()
-  
+
   dd <- cbind(dd, "1to" = rep("x", nrow(dd)))
   row1 <- rep("x", ncol(dd))
   dd <- rbind(row1, dd)  

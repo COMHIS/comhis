@@ -25,7 +25,7 @@ Sheet size is calculated according to the table given as output
          from call sheet_area()
 }
 \examples{
-sheet_area("2to")
+# sheet_area("2to")
 }
 \references{
 See citation("comhis")

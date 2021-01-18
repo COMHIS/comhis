@@ -16,7 +16,7 @@ Sheet size table
 Read sheet size table.
 }
 \examples{
-sheetsizes <- sheet_sizes()
+# sheetsizes <- sheet_sizes()
 }
 \references{
 See citation("comhis")

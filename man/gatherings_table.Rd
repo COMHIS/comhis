@@ -16,10 +16,10 @@ Document gatherings table
 Document gatherings names mapping table.
 }
 \examples{
-gatherings_table()
+# gatherings_table()
 }
 \references{
-See citation("bibliographica")
+See citation("comhis")
 }
 \author{
 Leo Lahti \email{leo.lahti@iki.fi}

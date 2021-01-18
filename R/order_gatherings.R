@@ -3,8 +3,8 @@
 #' @param x A vector or factor of gathering data
 #' @return A factor with ordered gatherings levels
 #' @author Leo Lahti \email{leo.lahti@@iki.fi}
-#' @references See citation("bibliographica")
-#' @examples order_gatherings(factor(c("2fo", "1to", "8vo")))
+#' @references See citation("comhis")
+#' @examples # order_gatherings(factor(c("2fo", "1to", "8vo")))
 #' @export
 #' @keywords utilities
 order_gatherings <- function (x) {
@@ -14,7 +14,7 @@ order_gatherings <- function (x) {
 
   # Recognize gatherings format (2fo or folio)
   format <- gatherings_format(x)
-  
+
   # Denote the ordering directly in the table		 
   glevels <- tolower(unique(gatherings_table()[[format]]))
 

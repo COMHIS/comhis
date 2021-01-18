@@ -16,7 +16,7 @@ Document dimension table
 Document dimension mapping table.
 }
 \examples{
-dimension_table()
+# dimension_table()
 }
 \references{
 See citation("comhis")

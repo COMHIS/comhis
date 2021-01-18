@@ -21,7 +21,10 @@ theme_comhis <- function(type="invalid", base_size=20, family="Helvetica") {
   if(type %in% c("D","discrete","Discrete","d")) {
 
     list(theme_light(base_size=base_size, base_family=family) +
-           theme(axis.ticks.length=unit(0, "cm")),
+           theme(axis.ticks.length=unit(0, "cm"),
+		 strip.background =element_rect(fill="white"),
+                 strip.text = element_text(colour = 'black')
+	   ),
          scale_fill_gdocs(),
          scale_color_gdocs()
 	 )
@@ -34,11 +37,15 @@ theme_comhis <- function(type="invalid", base_size=20, family="Helvetica") {
 		 panel.grid.major = element_blank(), 
             	 #panel.grid.minor = element_blank(),
 		 axis.line = element_line(colour = "darkgray", size = rel(1)),
-		 #legend.key = element_blank()
+		 #legend.key = element_blank(),
+		 strip.background =element_rect(fill="white"),
+                 strip.text = element_text(colour = 'black')
 		 ),
          scale_fill_viridis_d()
 	 )
-	 
+
+
+
   } else {
     stop("Invalid input! Specify the type of data, 
           either continuous or discrete ",
