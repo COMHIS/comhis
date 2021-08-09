@@ -1,4 +1,5 @@
 #' @importFrom stringr str_to_title
+#' @importFrom dplyr bind_rows
 #' @import ggplot2
 #' @importFrom ggplot2 element_blank
 #' @importFrom ggplot2 element_line
