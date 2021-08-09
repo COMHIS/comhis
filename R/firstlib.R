@@ -20,7 +20,6 @@
 #' @importFrom utils read.csv
 #' @importFrom tibble data_frame
 #' @importFrom stringr str_trim
-#' @import ggplot
 .onAttach <- function(lib, pkg)
 {
 
